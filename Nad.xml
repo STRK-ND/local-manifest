@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-
-
-
+	
          <!--  Sync trees  -->
-         <project path="device/asus/X00T" name="STRK-ND/device_asus_X00T" remote="github" revision="lineage-17.1"/>
-         <project path="vendor/asus" name="STRK-ND/proprietary_vendor_asus" remote="github" revision="lineage-17.1"/>
+         <project path="device/asus/X00TD" name="STRK-ND/device_asus_X00TD" remote="github" revision="main"/>
+         <project path="vendor/asus" name="STRK-ND/vendor_asus_X00TD" remote="github" revision="11"/>
          <project path="kernel/asus/sdm660" name="STRK-ND/android_kernel_asus_x00t" remote="github" revision="master"/>
 
 </manifest>
