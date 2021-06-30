@@ -5,5 +5,22 @@
          <project path="device/asus/X00TD" name="STRK-ND/device_asus_X00TD" remote="github" revision="main"/>
          <project path="vendor/asus" name="STRK-ND/vendor_asus_X00TD" remote="github" revision="11"/>
          <project path="kernel/asus/sdm660" name="STRK-ND/android_kernel_asus_x00t" remote="github" revision="master"/>
+         <remote name="opengapps" fetch="https://github.com/opengapps/"  />
+
+<remote name="opengapps-gitlab" fetch="https://gitlab.opengapps.org/opengapps/"  />
+
+<project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
+
+<project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+
+<!-- arm64 depends on arm -->
+
+<project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+
+<project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+
+<project path="vendor/opengapps/sources/x86" name="x86" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+
+<project path="vendor/opengapps/sources/x86_64" name="x86_64" clone-depth="1" revision="master" remote="opengapps-gitlab" />
 
 </manifest>
