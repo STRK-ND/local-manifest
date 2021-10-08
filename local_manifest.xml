@@ -1,7 +1,3 @@
-
-
-
-
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
           
@@ -13,8 +9,8 @@
                 revision="refs/heads/lineage-18.1" />
 
         <!-- Sync trees -->
-         <project path="device/asus/X00TD" name="STRK-ND/device_asus_X00TD" remote="github" revision="lineage-18.1" />
-        <project path="vendor/asus" name="STRK-ND/proprietary_vendor_asus" remote="github" revision="lineage-18.1" />
+         <project path="device/asus/X00TD" name="asus-sdm660-devs/android_device_asus_X00TD" remote="github" revision="lineage-18.1" />
+        <project path="vendor/asus" name="asus-sdm660-devs/proprietary_vendor_asus" remote="github" revision="lineage-18.1" />
         <project path="kernel/asus/sdm660" name="STRK-ND/android_kernel_asus_x00t" remote="github" revision="master"/>
 
         <!-- Remove some projects -->
