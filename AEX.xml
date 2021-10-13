@@ -19,7 +19,7 @@
          <remove-project name="hardware/libhardware" />
          <remove-project name="packages/apps/Camera" />
          <remove-project name="frameworks/base/data/sounds/google" />
-         <remove-project name="vendor/descendant/charger" />
+         <remove-project name="vendor/aosp/charger" />
 
 <remote name="pkm774" fetch="https://github.com/pkm774" />
 <remote name="LineageOS" fetch="https://github.com/LineageOS" />
