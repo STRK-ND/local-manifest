@@ -7,19 +7,17 @@
          <project path="kernel/asus/sdm660" name="STRK-ND/android_kernel_asus_x00t" remote="github" revision="master"/>
 	
          <!-- Needed custom HALs -->
-         <remove-project name="vendor/qcom/opensource/data-ipa-cfg-mgr" />
-         <remove-project name="hardware/qcom-caf/wlan" />
-         <remove-project name="vendor/qcom/opensource/power" />
-         <remove-project name="external/tinyalsa" />
-         <remove-project name="external/tinycompress" />
-         <remove-project name="hardware/qcom-caf/msm8998/audio" />
-         <remove-project name="hardware/qcom-caf/msm8998/media" />
-         <remove-project name="hardware/qcom-caf/msm8998/display" />
-         <remove-project name="hardware/qcom-caf/thermal" />
-         <remove-project name="hardware/libhardware" />
-         <remove-project name="packages/apps/Camera" />
-         <remove-project name="frameworks/base/data/sounds/google" />
-         <remove-project name="vendor/aosp/charger" />
+         <remove-project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
+         <remove-project name="android_hardware_qcom_wlan" />
+         <remove-project name="platform_vendor_qcom_opensource_power" />
+         <remove-project name="platform/external/tinyalsa" />
+         <remove-project name="android_external_tinycompress" />
+         <remove-project name="android_hardware_qcom_audio" />
+         <remove-project name="android_hardware_qcom_media" />
+         <remove-project name="android_hardware_qcom_display" />
+         <remove-project name="android_hardware_qcom_thermal" />
+         <remove-project name="android_hardware_libhardware" />
+         <remove-project name="platform_packages_apps_Camera2" />
 
 <remote name="pkm774" fetch="https://github.com/pkm774" />
 <remote name="LineageOS" fetch="https://github.com/LineageOS" />
