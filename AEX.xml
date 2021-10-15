@@ -26,7 +26,7 @@
 <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" revision="lineage-18.1" remote="LineageOS" />
 <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" revision="lineage-18.1-caf" remote="LineageOS" />
 <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" revision="power.legacyopensource.lnx.1.0.r15-rel" remote="pkm774" />
-<project path="external/tinyalsa" name="quic/la/platform/external/tinyalsa" revision="ks-aosp.lnx.3.0.r15-rel external/tinyalsa" remote="caf" />
+<project path="external/tinyalsa" name="quic/la/platform/external/tinyalsa" revision="ks-aosp.lnx.3.0.r15-rel" remote="caf" />
 <project path="external/tinycompress" name="external_tinycompress" revision="ks-aosp.lnx.3.0.r15-rel" remote="pkm774" />
 <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" revision="audio-hal.lnx.8.0.r14-rel" remote="pkm774" />
 <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_media_msm8998" revision="11" remote="pkm774" />
