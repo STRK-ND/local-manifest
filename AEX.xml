@@ -1,41 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	
-         <!--  Sync trees  -->
-         <project path="device/asus/X00TD" name="STRK-ND/device_asus_X00TD" remote="github" revision="lineage-18.1"/>
-         <project path="vendor/asus" name="STRK-ND/proprietary_vendor_asus" remote="github" revision="lineage-18.1"/>
-         <project path="kernel/asus/sdm660" name="STRK-ND/android_kernel_asus_x00t" remote="github" revision="master"/>
-	
-         <!-- Needed custom HALs -->
-         <remove-project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
-         <remove-project name="android_hardware_qcom_wlan" />
-         <remove-project name="platform_vendor_qcom_opensource_power" />
-         <remove-project name="platform/external/tinyalsa" />
-         <remove-project name="android_external_tinycompress" />
-         <remove-project name="android_hardware_qcom_audio" />
-         <remove-project name="android_hardware_qcom_media" />
-         <remove-project name="android_hardware_qcom_display" />
-         <remove-project name="android_hardware_qcom_thermal" />
-         <remove-project name="android_hardware_libhardware" />
-         <remove-project name="platform_packages_apps_Camera2" />
 
-<remote name="pkm774" fetch="https://github.com/pkm774" />
-<remote name="LineageOS" fetch="https://github.com/LineageOS" />
-<remote name="caf" fetch="https://source.codeaurora.org" />
+        <remote name="github"
+                fetch="https://github.com" />
 
-<project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" revision="lineage-18.1" remote="LineageOS" />
-<project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" revision="lineage-18.1-caf" remote="LineageOS" />
-<project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" revision="power.legacyopensource.lnx.1.0.r15-rel" remote="pkm774" />
-<project path="external/tinyalsa" name="quic/la/platform/external/tinyalsa" revision="ks-aosp.lnx.3.0.r15-rel" remote="caf" />
-<project path="external/tinycompress" name="external_tinycompress" revision="ks-aosp.lnx.3.0.r15-rel" remote="pkm774" />
-<project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" revision="audio-hal.lnx.8.0.r14-rel" remote="pkm774" />
-<project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_media_msm8998" revision="11" remote="pkm774" />
-<project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_display_msm8998" revision="11" remote="pkm774" />
-<project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" revision="aosp-new/android11-qpr3-s1-release" remote="pkm774" />
-<project path="hardware/libhardware" name="android_hardware_libhardware" revision="lineage-18.0" remote="LineageOS" />
+        <remote name="lineage"
+                fetch="https://github.com/LineageOS"
+                revision="refs/heads/lineage-18.1" />
 
-# SnapdragonCamera
-<project path="packages/apps/Camera" name="packages_apps_SnapdragonCamera" revision="camera.lnx.3.2.r13-rel" remote="pkm774" />
-<project path="frameworks/base/data/sounds/google" name="aosp_sounds" revision="master" remote="pkm774" />
+        <!-- Sync trees -->
+        <project path="device/asus/X00TD" name="STRK-ND/device_asus_X00TD" remote="github" revision="lineage-18.1" />
+        <project path="vendor/asus" name="STRK-ND/proprietary_vendor_asus" remote="github" revision="lineage-18.1" />
+        <project path="kernel/asus/sdm660" name="STRK-ND/android_kernel_asus_x00t" remote="github" revision="master"/>
+	<project path="device/asus/common" name="STRK-ND/device_asus_sdm660-common" remote="github" revision="lineage-18.1" />
+
+        <!-- Remove some projects -->
+	<remove-project name="device/common"/>
+	<remove-project name="device/generic/arm64"/>
+	<remove-project name="device/generic/armv7-a-neon"/>
+	<remove-project name="device/generic/x86_64"/>
+	<remove-project name="device/google_car"/>
+	<remove-project name="device/generic/art"/>
+	<remove-project name="device/generic/car"/>
+	<remove-project name="device/generic/common"/>
+	<remove-project name="device/generic/mini-emulator-armv7-a-neon"/>
+	<remove-project name="device/generic/mini-emulator-x86"/>
+	<remove-project name="device/generic/mini-emulator-x86_64"/>
+	<remove-project name="device/generic/qemu"/>
+	<remove-project name="device/generic/trusty"/>
+	<remove-project name="device/generic/x86"/>
+        <remove-project name="platform/hardware/qcom/sdm845/bt" />
+        <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
+        <remove-project name="platform/hardware/qcom/sdm845/display" />
+        <remove-project name="platform/hardware/qcom/sdm845/gps" />
+        <remove-project name="platform/hardware/qcom/sdm845/media" />
+        <remove-project name="platform/hardware/qcom/sdm845/thermal" />
+        <remove-project name="platform/hardware/qcom/sdm845/vr"/>
+        <remove-project name="kernel/tests" />
+        <remove-project name="platform/prebuilts/android-emulator" />
+        <remove-project name="platform/prebuilts/qemu-kernel" />
+        <remove-project name="kernel/prebuilts/4.19/arm64"/>
+
+        <!-- Hals stuff -->
+        <remove-project name="android_hardware_qcom_audio" />
+        <remove-project name="android_hardware_qcom_display" />
+        <remove-project name="android_hardware_qcom_media" />
+        <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="lineage" revision="lineage-18.1-caf-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="lineage" revision="lineage-18.1-caf-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="lineage" revision="lineage-18.1-caf-msm8998" />
 
 </manifest>
