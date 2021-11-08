@@ -12,7 +12,6 @@
 	<project path="device/asus/sdm660-common" name="STRK-ND/device_asus_sdm660-common" remote="github" revision="lineage-18.1" />
 
         <!-- Remove some projects -->
-	<remove-project name="device/common"/>
 	<remove-project name="device/generic/arm64"/>
 	<remove-project name="device/generic/armv7-a-neon"/>
 	<remove-project name="device/generic/x86_64"/>
