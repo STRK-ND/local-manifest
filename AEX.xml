@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	
-        <remote name="lineage"
-                fetch="https://github.com/LineageOS"
-                revision="refs/heads/lineage-18.1" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="STRK-ND/device_asus_X00TD" remote="github" revision="snow" />
@@ -38,6 +34,10 @@
 	
 	# Remove pixel-charger resources from vendor
 	<remove-project name="vendor/corvus/charger"/>
+	
+	<remote name="pkm774" fetch="https://github.com/pkm774" />
+        <remote name="LineageOS" fetch="https://github.com/LineageOS" />
+        <remote name="caf" fetch="https://source.codeaurora.org" />
 
         <!-- Hals stuff -->
        
