@@ -31,9 +31,7 @@
         <remove-project name="platform/prebuilts/android-emulator" />
         <remove-project name="platform/prebuilts/qemu-kernel" />
         <remove-project name="kernel/prebuilts/4.19/arm64"/>
-	
-	# Remove pixel-charger resources from vendor
-	<remove-project name="vendor/corvus/charger"/>
+
 	
 	<remote name="pkm774" fetch="https://github.com/pkm774" />
         <remote name="LineageOS" fetch="https://github.com/LineageOS" />
@@ -71,6 +69,6 @@
 <project path="frameworks/base/data/sounds/google" name="aosp_sound" revision="master" remote="pkm774" />
 
 # Remove pixel-charger resources from vendor
-	<remove-project name="vendor/corvus/charger"/>
+<remove-project name="vendor/corvus/charger"/>
 
 </manifest>
