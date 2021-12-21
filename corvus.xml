@@ -29,6 +29,4 @@
 <remove-project name="android_hardware_qcom_thermal"/>
 <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" revision="aosp-new/android11-qpr3-s1-release" remote="pkm774" />
 
-<project path="frameworks/base/data/sounds/google" name="aosp_sound" revision="master" remote="X00TD-Corvus" />
-
 </manifest>
