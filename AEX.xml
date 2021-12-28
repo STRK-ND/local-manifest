@@ -5,13 +5,4 @@
         <project path="vendor/asus" name="X00TD-Corvus/vendor_asus_snow_sdm660" remote="github" revision="snow" />
         <project path="kernel/asus/sdm660" name="pkm774/kernel_asus_sdm660" remote="github" revision="master"/>
 	<project path="device/asus/sdm660-common" name="X00TD-Corvus/device_asus_snow_sdm660-common" remote="github" revision="snow" />
-        
-        <!-- Hals stuff -->
-        <remote name="jaichiranjeeva" fetch="https://github.com/jaichiranjeeva" />
-        
-        <remove-project name="netd"/>
-        <project path="system/netd" name="netd" revision="12.x" remote="jaichiranjeeva" />
-        <remove-project name="bpf"/>
-        <project path="system/bpf" name="bpf" revision="12.x" remote="jaichiranjeeva" />
-
 </manifest>
