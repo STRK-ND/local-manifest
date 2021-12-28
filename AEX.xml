@@ -4,5 +4,13 @@
         <project path="device/asus/X00TD" name="STRK-ND/device_asus_X00TD" remote="github" revision="snow" />
         <project path="vendor/asus" name="STRK-ND/vendor_asus_X00TD" remote="github" revision="snow" />
         <project path="kernel/asus/sdm660" name="pkm774/kernel_asus_sdm660" remote="github" revision="master"/>
+        
+        <!-- Hals stuff -->
+        <remote name="jaichiranjeeva" fetch="https://github.com/jaichiranjeeva" />
+        
+        <remove-project name="netd"/>
+        <project path="system/netd" name="netd" revision="12.x" remote="jaichiranjeeva" />
+        <remove-project name="bpf"/>
+        <project path="system/bpf" name="bpf" revision="12.x" remote="jaichiranjeeva" />
 
 </manifest>
