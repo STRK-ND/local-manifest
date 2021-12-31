@@ -1,7 +1,7 @@
 <manifest>
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="X00TD-Corvus/device_asus_snow_X00TD" remote="github" revision="snow" />
+        <project path="device/asus/X00TD" name="X00TD-Corvus/device_asus_snow_X00TD" remote="github" revision="syberia" />
         <project path="vendor/asus" name="X00TD-Corvus/vendor_asus_snow_sdm660" remote="github" revision="snow" />
         <project path="kernel/asus/sdm660" name="pkm774/kernel_asus_sdm660" remote="github" revision="master"/>
-	<project path="device/asus/sdm660-common" name="X00TD-Corvus/device_asus_snow_sdm660-common" remote="github" revision="snow" />
+	<project path="device/asus/sdm660-common" name="X00TD-Corvus/device_asus_snow_sdm660-common" remote="github" revision="syberia" />
 </manifest>
