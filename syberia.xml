@@ -1,7 +1,25 @@
 <manifest>
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="X00TD-Corvus/device_asus_snow_X00TD" remote="github" revision="syberia" />
-        <project path="vendor/asus" name="X00TD-Corvus/vendor_asus_snow_sdm660" remote="github" revision="snow" />
+        <project path="device/asus/X00TD" name="X00TD-Corvus/device_asus_X00TD" remote="github" revision="twelve" />
+        <project path="vendor/asus" name="X00TD-Corvus/vendor_asus_X00TD" remote="github" revision="twelve" />
         <project path="kernel/asus/sdm660" name="pkm774/kernel_asus_sdm660" remote="github" revision="master"/>
-	<project path="device/asus/sdm660-common" name="X00TD-Corvus/device_asus_snow_sdm660-common" remote="github" revision="syberia" />
+	
+	<!-- HALS -->
+	<remove-project name="android_hardware_qcom_audio" />
+        <remove-project name="android_hardware_qcom_display" />
+        <remove-project name="android_hardware_qcom_media" />
+	
+<project path="hardware/qcom-caf/msm8998/media" 
+          name="platform_hardware_qcom_media.git" 
+          remote="aex-tmp"
+          revision="12.x-caf-msm8998" />
+<project path="hardware/qcom-caf/msm8998/display" 
+          name="platform_hardware_qcom_display.git" 
+          remote="aex-tmp"
+          revision="12.x-caf-msm8998" />
+<project path="hardware/qcom-caf/msm8998/audio" 
+          name="platform_hardware_qcom_audio.git" 
+          remote="aex-tmp"
+          revision="12.x-caf-msm8998" />
+	
 </manifest>
