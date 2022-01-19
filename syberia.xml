@@ -4,11 +4,7 @@
         <project path="vendor/asus" name="X00TD-Corvus/vendor_asus_X00TD" remote="github" revision="twelve" />
         <project path="kernel/asus/sdm660" name="pkm774/kernel_asus_sdm660" remote="github" revision="master"/>
 	
-	<!-- HALS -->
-	<remove-project name="android_hardware_qcom_audio" />
-        <remove-project name="android_hardware_qcom_display" />
-        <remove-project name="android_hardware_qcom_media" />
-	
+	<!-- HALS -->	
 <project path="hardware/qcom-caf/msm8998/media" 
           name="platform_hardware_qcom_media.git" 
           remote="aex-tmp"
