@@ -1,4 +1,8 @@
 <manifest>
+	
+	<remote name="aex-tmp" 
+         fetch="https://github.com/aex-tmp" />
+	
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="X00TD-Corvus/device_asus_X00TD" remote="github" revision="twelve" />
         <project path="vendor/asus" name="X00TD-Corvus/vendor_asus_X00TD" remote="github" revision="twelve" />
