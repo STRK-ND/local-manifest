@@ -2,6 +2,8 @@
 	
 	<remote name="aex-tmp" 
          fetch="https://github.com/aex-tmp" />
+	<remote name="Subinsmani"
+          fetch="https://github.com/Subinsmani" />
 	
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="X00TD-Corvus/device_asus_X00TD" remote="github" revision="twelve" />
@@ -21,5 +23,11 @@
           name="platform_hardware_qcom_audio.git" 
           remote="aex-tmp"
           revision="12.x-caf-msm8998" />
+	
+	<!-- Pakages -->
+<project path="packages/apps/GoogleCameraGoEdition" 
+          name="packages_apps_GoogleCameraGoEdition.git" 
+          remote="Subinsmani"
+          revision="eleven" />
 	
 </manifest>
