@@ -2,9 +2,8 @@
 	
 	<remote name="Subinsmani"
           fetch="https://github.com/Subinsmani" />
-	<remote name="aosp"
+	<remote name="AospExtended"
           fetch="https://github.com/AospExtended" />
-	
 	
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="X00TD-Corvus/device_asus_X00TD" remote="github" revision="twelve" />
@@ -14,15 +13,15 @@
 	<!-- HALS -->	
 <project path="hardware/qcom-caf/msm8998/media" 
           name="platform_hardware_qcom_media.git" 
-          remote="aosp"
+          remote="AospExtended"
           revision="12.x-caf-msm8998" />
 <project path="hardware/qcom-caf/msm8998/display" 
           name="platform_hardware_qcom_display.git" 
-          remote="aosp"
+          remote="AospExtended"
           revision="12.x-caf-msm8998" />
 <project path="hardware/qcom-caf/msm8998/audio" 
           name="platform_hardware_qcom_audio.git" 
-          remote="aosp"
+          remote="AospExtended"
           revision="12.x-caf-msm8998" />
 	
 	<!-- Pakages -->
@@ -34,7 +33,7 @@
 	<!-- sepolicy -->
 <project path="device/qcom/sepolicy-legacy-um" 
           name="platform_device_qcom_sepolicy.git" 
-          remote="aosp"
+          remote="AospExtended"
           revision="12.x-legacy-um" />
 	
 </manifest>
