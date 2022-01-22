@@ -34,7 +34,7 @@
 	
 	<!-- sepolicy -->
 <project path="device/qcom/sepolicy-legacy-um" 
-          name="platform_device_qcom_sepolicy.git" 
+          name="device_qcom_sepolicy-legacy-um.git" 
           remote="PixelExperience"
           revision="twelve" />
 	
