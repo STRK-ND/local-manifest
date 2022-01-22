@@ -4,6 +4,8 @@
           fetch="https://github.com/Subinsmani" />
 	<remote name="AospExtended"
           fetch="https://github.com/AospExtended" />
+	<remote name="PixelExperience"
+	 fetch="https://github.com/PixelExperience" />
 	
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="X00TD-Corvus/device_asus_X00TD" remote="github" revision="twelve" />
@@ -33,7 +35,7 @@
 	<!-- sepolicy -->
 <project path="device/qcom/sepolicy-legacy-um" 
           name="platform_device_qcom_sepolicy.git" 
-          remote="AospExtended"
-          revision="12.x-legacy-um" />
+          remote="PixelExperience"
+          revision="twelve" />
 	
 </manifest>
