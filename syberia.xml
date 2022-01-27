@@ -1,18 +1,22 @@
 <manifest>
 	
-	<remote name="Subinsmani"
-          fetch="https://github.com/Subinsmani" />
-	<remote name="AospExtended"
-          fetch="https://github.com/AospExtended" />
-	<remote name="PixelExperience"
-	 fetch="https://github.com/PixelExperience" />
-	<remote name="X00TD"
-          fetch name="https://github.com/X00TD-Corvus" />
+<!-- Remove -->
+<remove-project name="platform_build" />
 	
-        <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="X00TD-Corvus/device_asus_X00TD" remote="github" revision="twelve" />
-        <project path="vendor/asus" name="X00TD-Corvus/vendor_asus_X00TD" remote="github" revision="twelve" />
-        <project path="kernel/asus/sdm660" name="pkm774/kernel_asus_sdm660" remote="github" revision="master"/>
+<!-- Remotes -->
+<remote name="Subinsmani"
+   fetch="https://github.com/Subinsmani" />
+<remote name="AospExtended"
+   fetch="https://github.com/AospExtended" />
+<remote name="PixelExperience"
+   fetch="https://github.com/PixelExperience" />
+<remote name="X00TD"
+   fetch name="https://github.com/X00TD-Corvus" />
+	
+<!-- Sync trees -->
+<project path="device/asus/X00TD" name="X00TD-Corvus/device_asus_X00TD" remote="github" revision="twelve" />
+<project path="vendor/asus" name="X00TD-Corvus/vendor_asus_X00TD" remote="github" revision="twelve" />
+<project path="kernel/asus/sdm660" name="pkm774/kernel_asus_sdm660" remote="github" revision="master"/>
 	
 	<!-- HALS -->	
 <project path="hardware/qcom-caf/msm8998/media" 
@@ -45,6 +49,5 @@
 	 name="platform_build"
 	 remote="X00TD"
 	 revision="12.0" />
-	
 	
 </manifest>
