@@ -6,8 +6,6 @@
    fetch="https://github.com/Subinsmani" />
 <remote name="PixelExperience"
    fetch="https://github.com/PixelExperience" />
-<remote name="X00TD"
-   fetch="https://github.com/X00TD-Corvus" />
 	
 <!-- Sync trees -->
 <project path="device/asus/X00TD" name="X00TD-Corvus/device_asus_X00TD" remote="github" revision="aex" />
