@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	
-<!-- Remove -->
-<remove-project name="platform_build" />
-	
 <!-- Remotes -->
 <remote name="Subinsmani"
    fetch="https://github.com/Subinsmani" />
 <remote name="AospExtended"
    fetch="https://github.com/AospExtended" />
-<remote name="PixelExperience"
-   fetch="https://github.com/PixelExperience" />
-<remote name="X00TD"
-   fetch="https://github.com/X00TD-Corvus" />
 	
-<!-- Sync trees -->
-<project path="device/asus/X00TD" name="X00TD-Corvus/device_asus_X00TD" remote="github" revision="twelve" />
-<project path="vendor/asus" name="X00TD-Corvus/vendor_asus_X00TD" remote="github" revision="twelve" />
-<project path="kernel/asus/sdm660" name="pkm774/kernel_asus_sdm660" remote="github" revision="master"/>
+        <!--Tree-->
+	<project path="device/asus/X00TD" name="X00TD-Corvus/android_device_asus_X00TD" remote="github" revision="evo" />
+        <project path="vendor/asus" name="X00TD-Corvus/proprietary_vendor_asus" remote="github" revision="snow" />
+	<project path="device/asus/sdm660-common" name="X00TD-Corvus/android_device_asus_sdm660-common" remote="github" revision="snow" />
+        <project path="kernel/asus/sdm660" name="pkm774/kernel_asus_sdm660" remote="github" revision="master"/>
 	
 	<!-- HALS -->	
 <project path="hardware/qcom-caf/msm8998/media" 
@@ -37,18 +31,5 @@
 <project path="packages/apps/GoogleCameraGoEdition" 
           name="packages_apps_GoogleCameraGoEdition.git" 
           remote="Subinsmani"
-          revision="eleven" />
-	
-	<!-- sepolicy -->
-<project path="device/qcom/sepolicy-legacy-um" 
-          name="device_qcom_sepolicy-legacy-um.git" 
-          remote="PixelExperience"
-          revision="twelve" />
-	
-	<!-- platform_build -->
-<project path="build/make"
-	 name="platform_build"
-	 remote="X00TD"
-	 revision="12.0" />
-	
+          revision="eleven" />	
 </manifest>
