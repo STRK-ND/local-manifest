@@ -4,8 +4,6 @@
 <!-- Remotes -->
 <remote name="Subinsmani"
    fetch="https://github.com/Subinsmani" />
-<remote name="PixelExperience"
-   fetch="https://github.com/PixelExperience" />
 	
 <!-- Sync trees -->
         <project path="device/asus/X00TD" name="X00TD-Corvus/android_device_asus_X00TD" remote="github" revision="aex" />
@@ -18,12 +16,5 @@
           name="packages_apps_GoogleCameraGoEdition.git" 
           remote="Subinsmani"
           revision="eleven" />
-	
-	<!-- sepolicy -->
-	<remove-project name="platform_device_qcom_sepolicy"/>
-<project path="device/qcom/sepolicy-legacy-um" 
-          name="device_qcom_sepolicy-legacy-um.git" 
-          remote="PixelExperience"
-          revision="twelve" />
 	
 </manifest>
