@@ -8,9 +8,7 @@
    fetch="https://github.com/AospExtended" />
 	
 	<!--Remove-->
-	<remove-project name="hardware/qcom-caf/msm8998/audio"/>
 	<remove-project name="hardware/qcom-caf/msm8998/media"/>
-	<remove-project name="hardware/qcom-caf/msm8998/display"/>
 	
         <!--Tree-->
 	<project path="device/asus/X00TD" name="X00TD-Corvus/android_device_asus_X00TD" remote="github" revision="evo" />
