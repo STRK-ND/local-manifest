@@ -37,4 +37,7 @@
           name="packages_apps_GoogleCameraGoEdition.git" 
           remote="Subinsmani"
           revision="eleven" />	
+	
+cp -af hardware/qcom-caf/common/os_pickup_qssi.bp hardware/qcom-caf/msm8998/Android.bp
+cp -af hardware/qcom-caf/common/os_pickup.mk hardware/qcom-caf/msm8998/Android.mk
 </manifest>
