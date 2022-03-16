@@ -4,32 +4,11 @@
 <!-- Remotes -->
 <remote name="Subinsmani"
    fetch="https://github.com/Subinsmani" />
-<remote name="AospExtended"
-   fetch="https://github.com/AospExtended" />
-	
-	<!--Remove-->
-	<remove-project name="android_hardware_qcom_media"/>
-	<remove-project name="android_hardware_qcom_display"/>
-	<remove-project name="android_hardware_qcom_audio"/>
 	
         <!--Tree-->
 	<project path="device/asus/X00TD" name="X00TD-Corvus/device_asus_X00TD" remote="github" revision="Evo" />
         <project path="vendor/asus" name="X00TD-Corvus/vendor_asus_X00TD" remote="github" revision="snow" />
         <project path="kernel/asus/sdm660" name="Rombuilding-X00TD/kernel_asus_sdm660" remote="github" revision="snow"/>
-	
-	<!-- HALS -->	
-<project path="hardware/qcom-caf/msm8998/media" 
-          name="platform_hardware_qcom_media.git" 
-          remote="AospExtended"
-          revision="12.x-caf-msm8998" />
-<project path="hardware/qcom-caf/msm8998/display" 
-          name="platform_hardware_qcom_display.git" 
-          remote="AospExtended"
-          revision="12.x-caf-msm8998" />
-<project path="hardware/qcom-caf/msm8998/audio" 
-          name="platform_hardware_qcom_audio.git" 
-          remote="AospExtended"
-          revision="12.x-caf-msm8998" />
 	
 	<!-- Pakages -->
 <project path="packages/apps/GoogleCameraGoEdition" 
