@@ -8,9 +8,9 @@
    fetch="https://github.com/AospExtended" />
 
 	<!--Remove-->
-	<remove-project name="android_hardware_qcom_media"/>
-	<remove-project name="android_hardware_qcom_display"/>
-	<remove-project name="android_hardware_qcom_audio"/>
+	<remove-project name="LineageOS/android_hardware_qcom_media"/>
+	<remove-project name="LineageOS/android_hardware_qcom_display"/>
+	<remove-project name="LineageOS/android_hardware_qcom_audio"/>
 
 	<!-- HALS -->	
 <project path="hardware/qcom-caf/msm8998/media" 
