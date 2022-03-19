@@ -27,9 +27,8 @@
           revision="12.x-caf-msm8998" />
 	
         <!--Tree-->
-	<project path="device/asus/X00TD" name="X00TD-Corvus/android_device_asus_X00TD" remote="github" revision="evo" />
-        <project path="vendor/asus" name="X00TD-Corvus/proprietary_vendor_asus" remote="github" revision="snow" />
-	<project path="device/asus/sdm660-common" name="X00TD-Corvus/android_device_asus_sdm660-common" remote="github" revision="snow" />
+	<project path="device/asus/X00TD" name="X00TD-Corvus/device_asus_X00TD" remote="github" revision="Evo" />
+        <project path="vendor/asus" name="X00TD-Corvus/vendor_asus_X00TD" remote="github" revision="snow" />
         <project path="kernel/asus/sdm660" name="pkm774/kernel_asus_sdm660" remote="github" revision="master"/>
 
 cp -af hardware/qcom-caf/common/os_pickup_qssi.bp hardware/qcom-caf/msm8998/Android.bp
