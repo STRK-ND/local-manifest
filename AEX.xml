@@ -2,9 +2,9 @@
 <manifest>
 	
  <!--Tree-->
-        <project path="device/asus/X00TD" name="X00TD-Corvus/android_device_asus_X00TD" remote="github" revision="snow" />
+        <project path="device/asus/X00TD" name="X00TD-Corvus/android_device_asus_X00TD" remote="github" revision="aex" />
         <project path="vendor/asus" name="X00TD-Corvus/proprietary_vendor_asus" remote="github" revision="snow" />
-	<project path="device/asus/sdm660-common" name="X00TD-Corvus/android_device_asus_sdm660-common" remote="github" revision="snow" />
+	<project path="device/asus/sdm660-common" name="X00TD-Corvus/android_device_asus_sdm660-common" remote="github" revision="aex" />
         <project path="kernel/asus/sdm660" name="RyuujiX/android_kernel_asus_sdm660" remote="github" revision="r6/eas"/>
 	
 </manifest>
