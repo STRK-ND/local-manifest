@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	
+<remote name="AospExtended"
+   fetch="https://github.com/AospExtended" />
+
+	<!--Remove-->
+	<remove-project name="android_hardware_qcom_media"/>
+	<remove-project name="android_hardware_qcom_display"/>
+	<remove-project name="android_hardware_qcom_audio"/>
+
+	<!-- HALS -->	
+<project path="hardware/qcom-caf/msm8998/media" 
+          name="platform_hardware_qcom_media.git" 
+          remote="AospExtended"
+          revision="12.x-caf-msm8998" />
+<project path="hardware/qcom-caf/msm8998/display" 
+          name="platform_hardware_qcom_display.git" 
+          remote="AospExtended"
+          revision="12.x-caf-msm8998" />
+<project path="hardware/qcom-caf/msm8998/audio" 
+          name="platform_hardware_qcom_audio.git" 
+          remote="AospExtended"
+          revision="12.x-caf-msm8998" />
+	
  <!--Tree-->
         <project path="device/asus/X00TD" name="X00TD-Corvus/android_device_asus_X00TD" remote="github" revision="arrow" />
         <project path="vendor/asus" name="X00TD-Corvus/proprietary_vendor_asus" remote="github" revision="snow" />
