@@ -13,15 +13,15 @@
 <project path="hardware/qcom-caf/msm8998/media" 
           name="platform_hardware_qcom_media.git" 
           remote="AospExtended"
-          revision="12.x-caf-msm8998" />
+          revision="12.1.x-caf-msm8998" />
 <project path="hardware/qcom-caf/msm8998/display" 
           name="platform_hardware_qcom_display.git" 
           remote="AospExtended"
-          revision="12.x-caf-msm8998" />
+          revision="12.1.x-caf-msm8998" />
 <project path="hardware/qcom-caf/msm8998/audio" 
           name="platform_hardware_qcom_audio.git" 
           remote="AospExtended"
-          revision="12.x-caf-msm8998" />
+          revision="12.1.x-caf-msm8998" />
 	
  <!--Tree-->
         <project path="device/asus/X00TD" name="X00TD-Corvus/android_device_asus_X00TD" remote="github" revision="arrow" />
