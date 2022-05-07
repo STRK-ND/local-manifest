@@ -28,8 +28,8 @@
 	
  <!--Tree-->
         <project path="device/asus/X00TD" name="X00TD-Corvus/android_device_asus_X00TD" remote="github" revision="arrow" />
-        <project path="vendor/asus" name="X00TD-Corvus/proprietary_vendor_asus" remote="github" revision="arrow" />
-	<project path="device/asus/sdm660-common" name="X00TD-Corvus/android_device_asus_sdm660-common" remote="github" revision="arrow" />
+        <project path="vendor/asus" name="X00TD-Corvus/X00TD_vendor_asus" remote="github" revision="A12" />
+	<project path="device/asus/sdm660-common" name="X00TD-Corvus/asus_sdm660-common_snow" remote="github" revision="arrow" />
         <project path="kernel/asus/sdm660" name="Rombuilding-X00TD/android_kernel_asus_sdm660" remote="github" revision="snow"/>
 	
 	cp -af hardware/qcom-caf/common/os_pickup_qssi.bp hardware/qcom-caf/msm8998/Android.bp
