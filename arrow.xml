@@ -32,8 +32,6 @@
 	<project path="device/asus/sdm660-common" name="X00TD-Corvus/asus_sdm660-common_snow" remote="github" revision="arrow" />
         <project path="kernel/asus/sdm660" name="Rombuilding-X00TD/android_kernel_asus_sdm660" remote="github" revision="snow"/>
 	
-	cp -af hardware/qcom-caf/common/os_pickup_qssi.bp hardware/qcom-caf/msm8998/Android.bp
-cp -af hardware/qcom-caf/common/os_pickup.mk hardware/qcom-caf/msm8998/Android.mk
 
 	<!-- Pakages -->
 <project path="packages/apps/GoogleCameraGoEdition" 
