@@ -1,12 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	
-        <!--Tree-->
-	<project path="device/asus/X00TD" name="X00TD-Corvus/device_asus_X00TD" remote="github" revision="snow" />
-        <project path="vendor/asus" name="X00TD-Corvus/vendor_asus_4.4" remote="github" revision="snow" />
-        <project path="kernel/asus/sdm660" name="pkm774/kernel_asus_sdm660" remote="github" revision="master"/>
+	<!-- Remotes -->
+<remote name="ATBlastDon"
+   fetch="https://github.com/ATBlastDon" />
+<remote name="AospExtended"
+   fetch="https://github.com/AospExtended" />
 
-cp -af hardware/qcom-caf/common/os_pickup_qssi.bp hardware/qcom-caf/msm8998/Android.bp
-cp -af hardware/qcom-caf/common/os_pickup.mk hardware/qcom-caf/msm8998/Android.mk
+	<!--Remove-->
+	<remove-project name="LineageOS/android_hardware_qcom_media"/>
+	<remove-project name="LineageOS/android_hardware_qcom_display"/>
+	<remove-project name="LineageOS/android_hardware_qcom_audio"/>
+
+	<!-- HALS -->	
+<project path="hardware/qcom-caf/msm8998/media" 
+          name="platform_hardware_qcom_media.git" 
+          remote="AospExtended"
+          revision="12.1.x-caf-msm8998" />
+<project path="hardware/qcom-caf/msm8998/display" 
+          name="platform_hardware_qcom_display.git" 
+          remote="AospExtended"
+          revision="12.1.x-caf-msm8998" />
+<project path="hardware/qcom-caf/msm8998/audio" 
+          name="platform_hardware_qcom_audio.git" 
+          remote="AospExtended"
+          revision="12.1.x-caf-msm8998" />
+	
+ <!--Tree-->
+        <project path="device/asus/X00TD" name="X00TD-Corvus/android_device_asus_X00TD" remote="github" revision="evo" />
+        <project path="vendor/asus" name="X00TD-Corvus/X00TD_vendor_asus" remote="github" revision="A12" />
+	<project path="device/asus/sdm660-common" name="X00TD-Corvus/asus_sdm660-common_snow" remote="github" revision="evo" />
+        <project path="kernel/asus/sdm660" name="Rombuilding-X00TD/android_kernel_asus_sdm660" remote="github" revision="snow"/>
+
+	cp -af hardware/qcom-caf/common/os_pickup_qssi.bp hardware/qcom-caf/msm8998/Android.bp
+        cp -af hardware/qcom-caf/common/os_pickup.mk hardware/qcom-caf/msm8998/Android.mk
+
+	<!-- Pakages -->
+<project path="packages/apps/GoogleCameraGoEdition" 
+          name="packages_apps_GoogleCameraGoEdition.git" 
+          remote="ATBlastDon"
+          revision="eleven" />
 	
 </manifest>
