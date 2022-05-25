@@ -3,12 +3,7 @@
 	
 <remote name="AospExtended"
    fetch="https://github.com/AospExtended" />
-
-	<!--Remove-->
-	<remove-project name="android_hardware_qcom_media"/>
-	<remove-project name="android_hardware_qcom_display"/>
-	<remove-project name="android_hardware_qcom_audio"/>
-
+	
 	<!-- HALS -->	
 <project path="hardware/qcom-caf/msm8998/media" 
           name="platform_hardware_qcom_media.git" 
@@ -25,8 +20,8 @@
 	
  <!--Tree-->
         <project path="device/asus/X00TD" name="X00TD-Corvus/android_device_asus_X00TD" remote="github" revision="corvus" />
-        <project path="vendor/asus" name="X00TD-Corvus/proprietary_vendor_asus" remote="github" revision="arrow" />
+        <project path="vendor/asus" name="X00TD-Corvus/proprietary_vendor_asus" remote="github" revision="lineage-19.1" />
 	<project path="device/asus/sdm660-common" name="X00TD-Corvus/android_device_asus_sdm660-common" remote="github" revision="corvus" />
-        <project path="kernel/asus/sdm660" name="Rombuilding-X00TD/android_kernel_asus_sdm660" remote="github" revision="snow"/>
+        <project path="kernel/asus/sdm660" name="Rombuilding-X00TD/asus_sdm660" remote="github" revision="stock"/>
 	
 </manifest>
