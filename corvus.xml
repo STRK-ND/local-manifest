@@ -27,6 +27,6 @@
         <project path="device/asus/X00TD" name="X00TD-Corvus/android_device_asus_X00TD" remote="github" revision="corvus" />
         <project path="vendor/asus" name="X00TD-Corvus/proprietary_vendor_asus" remote="github" revision="lineage-19.1" />
 	<project path="device/asus/sdm660-common" name="X00TD-Corvus/android_device_asus_sdm660-common" remote="github" revision="corvus" />
-        <project path="kernel/asus/sdm660" name="Rombuilding-X00TD/asus_sdm660" remote="github" revision="stock"/>
+        <project path="kernel/asus/sdm660" name="RyuujiX/android_kernel_asus_sdm660" remote="github" revision="r7/hmp"/>
 	
 </manifest>
