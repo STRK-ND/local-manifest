@@ -1,10 +1,32 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	
+<remote name="AospExtended"
+   fetch="https://github.com/4-19-SDM-Asus" />
+	
+	<!--Remove-->
+	<remove-project name="platform_hardware_qcom_media"/>
+	<remove-project name="platform_hardware_qcom_display"/>
+	<remove-project name="platform_hardware_qcom_audio"/>
+	
+	<!-- HALS -->	
+<project path="hardware/qcom-caf/msm8998/media" 
+          name="hardware_qcom_media.git" 
+          remote="AospExtended"
+          revision="sdm660-4.19-S" />
+<project path="hardware/qcom-caf/msm8998/display" 
+          name="hardware_qcom_display.git" 
+          remote="AospExtended"
+          revision="sdm660-4.19" />
+<project path="hardware/qcom-caf/msm8998/audio" 
+          name="hardware_qcom_audio.git" 
+          remote="AospExtended"
+          revision="sdm660-4.19-S" />
+	
  <!--Tree-->
-        <project path="device/asus/X00TD" name="X00TD-Corvus/android_device_asus_X00TD" remote="github" revision="snow" />
-        <project path="vendor/asus" name="X00TD-Corvus/proprietary_vendor_asus" remote="github" revision="snow" />
-	<project path="device/asus/sdm660-common" name="X00TD-Corvus/android_device_asus_sdm660-common" remote="github" revision="snow" />
-        <project path="kernel/asus/sdm660" name="RyuujiX/android_kernel_asus_sdm660" remote="github" revision="r6/eas"/>
+        <project path="device/asus/X00T" name="4-19-SDM-Asus/android_device_asus_X00T" remote="github" revision="12" />
+        <project path="vendor/asus" name="4-19-SDM-Asus/android_vendor_asus_X00T" remote="github" revision="12" />
+        <project path="kernel/asus/sdm660" name="Rombuilding-X00TD/android_kernel_asus_sdm660-4.19" remote="github" revision="r2/s"/>
 	
 </manifest>
