@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-   <remove-project name="prebuilts/clang/host/linux-x86/clang-r450784d"/>
    
    <!--Tree-->
    <project path="device/asus/X00TD" name="X00TD-Corvus/android_device_asus_X00TD" remote="github" revision="evo" />
