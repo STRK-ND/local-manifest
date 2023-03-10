@@ -6,6 +6,6 @@
    <project path="vendor/asus" name="X00TD-Corvus/proprietary_vendor_asus" remote="github" revision="T" />
    <project path="device/asus/sdm660-common" name="X00TD-Corvus/device_asus_sdm660-common" remote="github" revision="evo" />
    <project path="kernel/asus/sdm660" name="asus-sdm660-devs/android_kernel_asus_sdm660" remote="github" revision="lineage-20"/>
-   <project path="prebuilts/clang/host/linux-x86/aosp-clang" name="STRK-ND/aosp-clang" remote="gitlab" revision="main"/>
+   <project path="prebuilts/clang/host/linux-x86/clang-r450784e" name="STRK-ND/aosp-clang" remote="gitlab" revision="main"/>
    
 </manifest>
