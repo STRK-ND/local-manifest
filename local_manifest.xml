@@ -7,7 +7,7 @@
           fetch="https://gitlab.com/STRK-ND/aosp-clang" />
    
    <!--Tree-->
-   <project path="device/asus/X00TD" name="X00TD-Corvus/android_device_asus_X00TD" remote="github" revision="evo" />
+   <project path="device/asus/X00TD" name="X00TD-Corvus/android_device_asus_X00TD" remote="github" revision="sup" />
    <project path="vendor/asus" name="X00TD-Corvus/proprietary_vendor_asus" remote="github" revision="T" />
    <project path="device/asus/sdm660-common" name="X00TD-Corvus/device_asus_sdm660-common" remote="github" revision="evo" />
    <project path="kernel/asus/sdm660" name="asus-sdm660-devs/android_kernel_asus_sdm660" remote="github" revision="lineage-20"/>
