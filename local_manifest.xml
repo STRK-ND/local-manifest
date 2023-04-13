@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    
-         <remote name="clang"
-          fetch="https://gitlab.com/STRK-ND/aosp-clang" />
+         <!-- Remotes -->
+   <remote name="clang" fetch="https://gitlab.com/STRK-ND/aosp-clang" />
+   <remote name="X00TD-Corvus" fetch="https://github.com/X00TD-Corvus" />
+   <remote name="kernel" fetch="https://github.com/asus-sdm660-devs" />
+
    
-   <!--Tree-->
-   <project path="device/asus/X00TD" name="X00TD-Corvus/android_device_asus_X00TD" remote="github" revision="sup" />
-   <project path="vendor/asus" name="X00TD-Corvus/proprietary_vendor_asus" remote="github" revision="T" />
-   <project path="device/asus/sdm660-common" name="X00TD-Corvus/device_asus_sdm660-common" remote="github" revision="evo" />
-   <project path="kernel/asus/sdm660" name="asus-sdm660-devs/android_kernel_asus_sdm660" remote="github" revision="lineage-20"/>
+         <!--Tree-->
+   <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="X00TD-Corvus" revision="sup" />
+   <project path="vendor/asus" name="proprietary_vendor_asus" remote="X00TD-Corvus" revision="T" />
+   <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="X00TD-Corvus" revision="evo" />
+   <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="kernel" revision="lineage-20"/>
    <project path="prebuilts/clang/host/linux-x86/clang-r450784e" name="aosp-clang" remote="clang" revision="main"/>
    
+         <!--  Device HAL's   -->
    <remove-project name="android_hardware_qcom_display" />
    <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="lineage" revision="lineage-20.0-caf-msm8998" />
    <remove-project name="android_hardware_qcom_media" />
