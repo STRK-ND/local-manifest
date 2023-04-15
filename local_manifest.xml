@@ -8,7 +8,7 @@
 
    
          <!--Tree-->
-   <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="X00TD-Corvus" revision="sup" />
+   <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="X00TD-Corvus" revision="evo" />
    <project path="vendor/asus" name="proprietary_vendor_asus" remote="X00TD-Corvus" revision="T" />
    <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="X00TD-Corvus" revision="evo" />
    <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="kernel" revision="lineage-20"/>
