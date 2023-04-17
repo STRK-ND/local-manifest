@@ -2,7 +2,6 @@
 <manifest>
    
          <!-- Remotes -->
-   <remote name="clang" fetch="https://gitlab.com/STRK-ND/aosp-clang" />
    <remote name="X00TD-Corvus" fetch="https://github.com/X00TD-Corvus" />
    <remote name="kernel" fetch="https://github.com/asus-sdm660-devs" />
 
@@ -12,6 +11,5 @@
    <project path="vendor/asus" name="proprietary_vendor_asus" remote="X00TD-Corvus" revision="T" />
    <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="X00TD-Corvus" revision="evo" />
    <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="kernel" revision="lineage-20"/>
-   <project path="prebuilts/clang/host/linux-x86/clang-r450784e" name="aosp-clang" remote="clang" revision="main"/>
    
 </manifest>
