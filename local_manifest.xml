@@ -7,6 +7,7 @@
  <project path="vendor/asus" name="X00TD-Corvus/proprietary_vendor_asus" remote="github" revision="T" />
  <project path="kernel/asus/sdm660" name="RyuujiX/android_kernel_asus_sdm660" remote="github" revision="r7/hmp"/>
  <!-- Pakages -->
- <project path="packages/apps/GoogleCameraGoEdition" name="ATBlastDon/packages_apps_GoogleCameraGoEdition.git" remote="github" revision="eleven" />
-	
+ <!-- <project path="packages/apps/GoogleCameraGoEdition" name="ATBlastDon/packages_apps_GoogleCameraGoEdition.git" remote="github" revision="eleven" /> -->
+<!-- External -->
+<project path="external/Camera" name="GrapheneOS/platform_external_Camera" remote="github" revision="13" />
 </manifest>
