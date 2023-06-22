@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-   
-         <!-- Remotes -->
-   <remote name="X00TD-Corvus" fetch="https://github.com/X00TD-Corvus" />
-   <remote name="kernel" fetch="https://github.com/asus-sdm660-devs" />
-
-   
-         <!--Tree-->
-   <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="X00TD-Corvus" revision="evo" />
-   <project path="vendor/asus" name="proprietary_vendor_asus" remote="X00TD-Corvus" revision="T" />
-   <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="X00TD-Corvus" revision="evo" />
-   <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="kernel" revision="lineage-20"/>
-   
+	
+ <!--Tree-->
+ <project path="device/asus/X00TD" name="X00TD-Corvus/android_device_asus_X00TD" remote="github" revision="evo" />
+ <project path="device/asus/sdm660-common" name="X00TD-Corvus/device_asus_sdm660-common" remote="github" revision="evo" />
+ <project path="vendor/asus" name="X00TD-Corvus/proprietary_vendor_asus" remote="github" revision="T" />
+ <project path="kernel/asus/sdm660" name="RyuujiX/android_kernel_asus_sdm660" remote="github" revision="r7/hmp"/>
+ <!-- Pakages -->
+ <project path="packages/apps/GoogleCameraGoEdition" name="ATBlastDon/packages_apps_GoogleCameraGoEdition.git" remote="github" revision="eleven" />
+	
 </manifest>
