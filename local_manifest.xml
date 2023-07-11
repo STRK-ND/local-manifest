@@ -5,10 +5,5 @@
  <project path="device/asus/X00TD" name="X00TD-Corvus/android_device_asus_X00TD" remote="github" revision="evo" />
  <project path="device/asus/sdm660-common" name="X00TD-Corvus/device_asus_sdm660-common" remote="github" revision="main" />
  <project path="vendor/asus" name="X00TD-Corvus/proprietary_vendor_asus" remote="github" revision="A13" />
- <project path="kernel/asus/sdm660" name="SKetU-l/android_kernel_asus_sdm660" remote="github" revision="r7/hmp" clone-depth="1" />
- <!--  <project path="kernel/asus/sdm660" name="RyuujiX/android_kernel_asus_sdm660" remote="github" revision="r7/hmp"/> -->
- <!-- Pakages -->
- <!-- <project path="packages/apps/GoogleCameraGoEdition" name="ATBlastDon/packages_apps_GoogleCameraGoEdition.git" remote="github" revision="eleven" /> -->
-<!-- External -->
-<project path="external/Camera" name="GrapheneOS/platform_external_Camera" remote="github" revision="13" />
+ <project path="kernel/asus/sdm660" name="asus-sdm660-devs/android_kernel_asus_sdm660" remote="github" revision="lineage-20" clone-depth="1" />
 </manifest>
